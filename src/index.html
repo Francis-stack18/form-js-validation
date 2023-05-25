@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <div class="conteudo">
+            <h1 class="titulo">FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h1>
+            <p class="texto">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato
+                em menos de
+                24h.</p>
+        </div>
+        <form id="form" class="form">
+            <input type="name" class="input-form required" placeholder="Nome Completo *" oninput="validarNome()">
+            <p class="campo-obrigatorio">campo obrigatório</p>
+            <input type="email" class="input-form required" placeholder="Email *" oninput="validarEmail()">
+            <p class="campo-obrigatorio">campo obrigatório</p>
+            <input type="tel" class="input-form required" placeholder="Telefone *" oninput="validarTelefone()">
+            <p class="campo-obrigatorio">campo obrigatório</p>
+            <textarea class="input-form msg required" cols="30" rows="10" placeholder="Mensagem *"
+                oninput="validarMensagem()"></textarea>
+            <p class="campo-obrigatorio">campo obrigatório</p>
+            <p class="campos-obrigatorios">*campos obrigatórios</p>
+            <button class="input-form btn-enviar">Enviar</button>
+        </form>
+    </main>
+</body>
+<script src="./index.js"></script>
+
+</html>

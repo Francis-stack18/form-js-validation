@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+body {
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  width: 800px;
+  height: 402px;
+  background-image: url("../images/bg-repeat.jpg");
+  background-position: center;
+  display: flex;
+}
+
+.conteudo {
+  color: rgb(255, 255, 255);
+  width: 300px;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+
+.conteudo .titulo {
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 24px;
+  margin-bottom: 11px;
+}
+
+.conteudo .texto {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-bottom: 150px;
+}
+
+.form {
+  height: 378px;
+  width: 340px;
+  background-color: white;
+  margin: 10px 0 10px 50px;
+  position: relative;
+}
+
+.input-form {
+  width: 298px;
+  height: 35px;
+  font-weight: 700;
+  font-size: 15px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 9px 9px 9px 9px;
+  margin: 15px 20px 0px 20px;
+}
+
+.form .input-form:first-child {
+  margin: 20px 20px 0px 20px;
+}
+
+.form .input-form.msg {
+  height: 100px;
+  min-height: 100px;
+  max-height: 100px;
+  min-width: 298px;
+  max-width: 298px;
+}
+
+::placeholder {
+  color: #a8a8a8;
+}
+
+.form .campos-obrigatorios {
+  margin: 9px 0 11px 15px;
+  font-size: 15px;
+}
+
+.form .campo-obrigatorio {
+  display: none;
+  margin: 0px 0px 0px 22px;
+  font-size: 8px;
+  font-weight: 400;
+  height: 9px;
+  width: 66px;
+  position: absolute;
+  color: red;
+}
+
+.form .input-form.btn-enviar {
+  cursor: pointer;
+  height: 41px;
+  background: #3ccc87;
+  border-radius: 5px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: white;
+  border: none;
+}
